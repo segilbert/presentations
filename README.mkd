@@ -1,7 +1,5 @@
-presentations
+Presentations
 =============
-
-Presentations and Demos
 
 
 ## TDD.Demo.November 2012

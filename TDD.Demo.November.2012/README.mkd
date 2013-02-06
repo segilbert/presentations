@@ -1,16 +1,15 @@
-TDD.Demo.November 2012
+## TDD.Demo.November 2012
 =============
 
 Introduction to Test Driven Development.  
 
-Minimium Install Requirements:
-[Visual Studio 2010](http://www.microsoft.com/visualstudio/eng/products/visual-studio-2010-express)
-NuGet Package Manager](http://nuget.org/)
+### Minimium Install Requirements:
+* [Visual Studio 2010](http://www.microsoft.com/visualstudio/eng/products/visual-studio-2010-express)
+* [NuGet Package Manager](http://nuget.org/)
 
-Tools:
-[ReSharper](http://www.jetbrains.com/resharper/)
-[NUnit](http://www.nunit.org/)
-[NSubstitute](http://nsubstitute.github.com/)
-[Continuous Might Moose](http://continuoustests.com/)
-OR
-[NCrunch](http://www.ncrunch.net/)/)
+### Tools:
+* [ReSharper](http://www.jetbrains.com/resharper/)
+* [NUnit](http://www.nunit.org/)
+* [NSubstitute](http://nsubstitute.github.com/)
+* [Continuous Might Moose](http://continuoustests.com/)
+* [NCrunch](http://www.ncrunch.net/)

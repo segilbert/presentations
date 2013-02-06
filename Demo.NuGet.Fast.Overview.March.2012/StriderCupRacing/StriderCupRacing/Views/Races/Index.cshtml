@@ -1,0 +1,89 @@
+@model IEnumerable<StriderCupRacing.Models.Race>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th></th>
+        <th>
+            Name
+        </th>
+        <th>
+            Description
+        </th>
+        <th>
+            Country
+        </th>
+        <th>
+            State
+        </th>
+        <th>
+            City
+        </th>
+        <th>
+            Rating
+        </th>
+        <th>
+            Status
+        </th>
+        <th>
+            StartDate
+        </th>
+        <th>
+            EndDate
+        </th>
+        <th>
+            Type
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.RaceId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.RaceId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.RaceId })
+        </td>
+        <td>
+			@item.Name
+        </td>
+        <td>
+			@item.Description
+        </td>
+        <td>
+			@item.Country
+        </td>
+        <td>
+			@item.State
+        </td>
+        <td>
+			@item.City
+        </td>
+        <td>
+			@item.Rating
+        </td>
+        <td>
+			@item.Status
+        </td>
+        <td>
+			@String.Format("{0:g}", item.StartDate)
+        </td>
+        <td>
+			@String.Format("{0:g}", item.EndDate)
+        </td>
+        <td>
+			@item.Type
+        </td>
+    </tr>
+}
+
+</table>
+
+

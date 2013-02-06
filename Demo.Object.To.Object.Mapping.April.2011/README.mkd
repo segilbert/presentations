@@ -1,6 +1,3 @@
-Presentations
-=============
-
 ## Demo.Object.To.Object.Mapping.April 2011
 =============
 
@@ -23,43 +20,3 @@ The best resource for learning is the framework source code itself.  AutoMapper 
 ### Tools:
 * [ReSharper](http://www.jetbrains.com/resharper/)
 * [NUnit](http://www.nunit.org/)
-
-
-## Demo.Chocolatey.Feb 2012
-=============
-
-[Frozen Bytes Chocolatey Series](http://www.i-m-code.com/blog/blog/2012/02/02/frozen-bytes-chocolatey-series/) with Video and Demo code content.   
-
-
-
-## Demo.NuGet.Fast.Overview.March 2012
-=============
-
-NuGet 101, a blazing fast overview.  My goal is to provide an introductory overview of NuGet.  NuGet is a package manager for .NET framework that manages dependencies.  If there is time I plan to briefly cover Chocolatey and CoApp, Windows packages managers similar to apt-get in Linux.
-
-It is my opinion NuGet MUST become a standard for managing dependencies on ALL projects going forward within our account and .NET practice at CompanyX.  I also believe to fully take advantage of the power of NuGet, it MUST be integrated in our CI processes and in some cases deployments.
-  
-
-### Minimium Install Requirements:
-* [Visual Studio 2010](http://www.microsoft.com/visualstudio/eng/products/visual-studio-2010-express)
-* [NuGet Package Manager](http://nuget.org/)
-
-### Tools:
-* [ReSharper](http://www.jetbrains.com/resharper/)
-
-
-## Demo.TDD.November 2012
-=============
-
-Introduction to Test Driven Development.  
-
-### Minimium Install Requirements:
-* [Visual Studio 2010](http://www.microsoft.com/visualstudio/eng/products/visual-studio-2010-express)
-* [NuGet Package Manager](http://nuget.org/)
-
-### Tools:
-* [ReSharper](http://www.jetbrains.com/resharper/)
-* [NUnit](http://www.nunit.org/)
-* [NSubstitute](http://nsubstitute.github.com/)
-* [Continuous Might Moose](http://continuoustests.com/)
-* [NCrunch](http://www.ncrunch.net/)

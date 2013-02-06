@@ -1,0 +1,32 @@
+@model StriderCupRacing.Models.Track
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Track</legend>
+
+    <div class="display-label">Name</div>
+    <div class="display-field">@Model.Name</div>
+
+    <div class="display-label">Description</div>
+    <div class="display-field">@Model.Description</div>
+
+    <div class="display-label">Status</div>
+    <div class="display-field">@Model.Status</div>
+
+    <div class="display-label">Rating</div>
+    <div class="display-field">@Model.Rating</div>
+
+    <div class="display-label">District</div>
+    <div class="display-field">@Model.District</div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.TrackId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+

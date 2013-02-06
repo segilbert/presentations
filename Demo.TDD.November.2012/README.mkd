@@ -1,4 +1,4 @@
-## TDD.Demo.November 2012
+## DemoTDD..November 2012
 =============
 
 Introduction to Test Driven Development.  

@@ -1,4 +1,0 @@
-presentations
-=============
-
-Presentations and Demos

@@ -11,7 +11,7 @@ Introduction to Test Driven Development.
 
 Minimium Install Requirements:
 [Visual Studio 2010](http://www.microsoft.com/visualstudio/eng/products/visual-studio-2010-express)
-[NuGet Package Manager](http://nuget.org/)
+NuGet Package Manager](http://nuget.org/)
 
 Tools:
 [ReSharper](http://www.jetbrains.com/resharper/)
